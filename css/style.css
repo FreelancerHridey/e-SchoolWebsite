@@ -1,36 +1,77 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#header-section{
-    background-color: #F0FFF0;
-}
-section{
+
+/* basic style  */
+section {
     margin-bottom: 50px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000;
 }
-.commonColor{
-    color: #21B573;
-}
-#header-section nav ul li{
-    padding: 5px 15px;
-    text-transform: uppercase;
-}
-#header-section nav ul li a:hover {
-    color: darkviolet;
-}
-.common-btn{
+
+.common-btn {
     background: #21B573;
     padding: 5px 20px;
     border-radius: 30px;
-    color: #fff ;
+    color: #fff;
     margin-left: 10px;
 }
-.common-btn:hover{
+
+.common-btn:hover {
     background-color: chartreuse;
     color: darkorchid;
+}
+
+/* header section  */
+#header-section {
+    background-color: #F0FFF0;
+}
+
+.commonColor {
+    color: #21B573;
+}
+.commonColor2{
+    color: #F8FFFB;
+}
+#header-section nav ul li {
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+#header-section nav ul li a:hover {
+    color: darkviolet;
+}
+
+    /* book section  */
+#book .card{
+    border: none;
+    min-height: 250px;
+    background: #F8FFFB;
+    margin-bottom: 15px;
+    transition: transform .5s ease-in-out 0.1s;
+}
+#book .card:hover{
+    box-shadow: 5px 5px 10px gray;
+    background:#FFFFFF;
+    transform: scale(1.1);
+}
+#course .common-btn{
+    margin-left: 0;
+}
+#course .card{
+    border: none;
+    box-shadow: 2px 2px 10px gainsboro;
+}
+footer{
+    background: #282531;
+    padding: 50px 0;
+    color: #DFDFE1;
+}
+footer a{
+    color: rgb(165, 154, 154);
 }
