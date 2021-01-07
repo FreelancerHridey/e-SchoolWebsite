@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header-section{
+    background-color: #F0FFF0;
+}
+section{
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.commonColor{
+    color: #21B573;
+}
+#header-section nav ul li{
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+#header-section nav ul li a:hover {
+    color: darkviolet;
+}
+.common-btn{
+    background: #21B573;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: #fff ;
+    margin-left: 10px;
+}
+.common-btn:hover{
+    background-color: chartreuse;
+    color: darkorchid;
+}
